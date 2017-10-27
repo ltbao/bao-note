@@ -1,7 +1,7 @@
 // var RtmClient = require('@slack/client').RtmClient;
 // var CLIENT_EVENTS = require('@slack/client').CLIENT_EVENTS;
 
-// var bot_token = process.env.SLACK_BOT_TOKEN || 'xoxb-261552147168-tP8hxAjsL6x8JMBGjH0dDlM3';
+// var bot_token = process.env.SLACK_BOT_TOKEN || 'KeyGen';
 
 // var rtm = new RtmClient(bot_token);
 
@@ -48,7 +48,7 @@ var CLIENT_EVENTS = require('@slack/client').CLIENT_EVENTS;
 var RTM_EVENTS = require('@slack/client').RTM_EVENTS;
 var MemoryDataStore = require('@slack/client').MemoryDataStore;
 
-var token = process.env.SLACK_API_TOKEN || 'xoxb-261552147168-tP8hxAjsL6x8JMBGjH0dDlM3';
+var token = process.env.SLACK_API_TOKEN || 'KeyGen';
 
 var rtm = new RtmClient(token, {
   logLevel: 'error', // check this out for more on logger: https://github.com/winstonjs/winston
@@ -81,7 +81,7 @@ var Slack_client = require('@slack/client');
 var RtmClient = Slack_client.RtmClient;
 var RTM_EVENTS = Slack_client.RTM_EVENTS;
 var CLIENT_EVENTS = Slack_client.CLIENT_EVENTS;
-var token = process.env.SLACK_API_TOKEN || 'xoxb-261552147168-tP8hxAjsL6x8JMBGjH0dDlM3';
+var token = process.env.SLACK_API_TOKEN || 'KeyGen';
 var listGai = require('./gaiList.js');
 var rtm = new RtmClient(token);
 rtm.start();

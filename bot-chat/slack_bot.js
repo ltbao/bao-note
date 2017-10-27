@@ -4,7 +4,7 @@ let Slack_client = require('@slack/client');
 let RtmClient = Slack_client.RtmClient;
 let RTM_EVENTS = Slack_client.RTM_EVENTS;
 let CLIENT_EVENTS = Slack_client.CLIENT_EVENTS;
-let token = process.env.SLACK_API_TOKEN || 'xoxb-261552147168-tP8hxAjsL6x8JMBGjH0dDlM3';
+let token = process.env.SLACK_API_TOKEN || 'KeyGen';
 let listGai = require('./gaiList.js');
 let rtm = new RtmClient(token);
 rtm.start();
